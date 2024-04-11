@@ -1,5 +1,5 @@
 /**
- * @name midnight
+ * @name midnight (canjas)
  * @description A dark, rounded discord theme.
  * @author refact0r
  * @version 1.6.2
@@ -20,13 +20,13 @@
 	--font: 'figtree';
 
 	/* top left corner text */
-	--corner-text: 'Midnight';
+	--corner-text: 'Canjas';
 
 	/* color of status indicators and window controls */
-	--online-indicator: var(--accent-2); /* change to #23a55a for default green */
-	--dnd-indicator: hsl(340, 60%, 60%); /* change to #f13f43 for default red */
-	--idle-indicator: hsl(50, 60%, 60%); /* change to #f0b232 for default yellow */
-	--streaming-indicator: hsl(260, 60%, 60%); /* change to #593695 for default purple */
+	--online-indicator: #a3be8c; /* change to #23a55a for default green */
+	--dnd-indicator: #bf616a; /* change to #f13f43 for default red */
+	--idle-indicator: #ebcb8b; /* change to #f0b232 for default yellow */
+	--streaming-indicator: #b48ead; /* change to #593695 for default purple */
 
 	/* accent colors */
 	--accent-1: hsl(190, 70%, 60%); /* links */
@@ -38,12 +38,12 @@
 	--mention-hover: hsla(190, 80%, 52%, 0.05); /* mentions & mention messages when hovered */
 
 	/* text colors */
-	--text-0: white; /* text on colored elements */
-	--text-1: var(--text-2); /* other normally white text */
-	--text-2: hsl(220, 25%, 70%); /* headings and important text */
-	--text-3: hsl(220, 15%, 60%); /* normal text */
-	--text-4: hsl(220, 15%, 40%); /* icon buttons and channels */
-	--text-5: hsl(220, 15%, 25%); /* muted channels/chats and timestamps */
+	--text-0: #2e3440; /* text on colored elements */
+	--text-1: #eceff4; /* other normally white text */
+	--text-2: #e5e9f0; /* headings and important text */
+	--text-3: #ECEFF4; /* normal text */
+	--text-4: #93a4c2; /* icon buttons and channels */
+	--text-5: #434C5E; /* muted channels/chats and timestamps */
 
 	/* background and dark colors */
 	--bg-1: hsl(220, 15%, 20%); /* dark buttons when clicked */
