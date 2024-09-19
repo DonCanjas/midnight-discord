@@ -14,18 +14,22 @@
 
 @import url('https://refact0r.github.io/midnight-discord/midnight.css');
 
+@import url('https://api.fontshare.com/v2/css?f[]=chillax@400&display=swap');
+
 /* customize things here */
 :root {
 	/* font, change to 'gg sans' for default discord font */
-	/*--font: 'figtree';*/
-	--font: 'Chillax';
+	--font: 'Chillax', sans-serif;
 
 	/* top left corner text */
 	--corner-text: 'Amaryllis';
 
+	/* thickness of messages divider */
+	--divider-thickness: 3px;
+
 	/* color of status indicators and window controls */
 	--online-indicator: #ccfca1; /* change to #23a55a for default green */
-	--dnd-indicator: #ff8692; /* change to #f13f43 for default red */
+	--dnd-indicator: #ff8692; /* change to #f23f43 for default red */
 	--idle-indicator: #ffdb93; /* change to #f0b232 for default yellow */
 	--streaming-indicator: #b3a0ff; /* change to #593695 for default purple */
 
@@ -87,7 +91,7 @@
 	--blurple-to-accent-3-filter: none; /* add friend page school icon */
 }
 
-.childWrapper_a6ce15:has(> svg:not(.favoriteIcon_adf80e)) {
+.childWrapper_f90abb:has(> svg:not(.favoriteIcon_dcc7a4)) {
 	background-image: url('https://github.com/yuhkix/midnight-discord/blob/master/assets/amaryllis/amaryllis.png?raw=true');
 	background-color: transparent !important;
 	background-size: cover;
